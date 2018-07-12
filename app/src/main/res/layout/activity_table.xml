@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <TableRow android:layout_width="367dp" android:layout_height="229dp">
+        <ImageButton
+                android:src="@drawable/square_mickey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/imageButton6"/>
+        <ImageButton
+                android:src="@drawable/buttonshape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/imageButton7"/>
+        <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <ImageButton
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/imageButton8"/>
+    </TableRow>
+    <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+                android:text="Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/button4"/>
+        <Button
+                android:text="Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/button13"/>
+        <Button
+                android:text="Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/button14"/>
+        <Button
+                android:text="Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </TableRow>
+</TableLayout>
